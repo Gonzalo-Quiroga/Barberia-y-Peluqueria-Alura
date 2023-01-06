@@ -1,0 +1,31 @@
+/*19 pulgadas*/
+
+@media screen and (max-width: 1366px) {
+}
+
+/*17 pulgadas*/
+
+@media screen and (max-width: 1280px) {
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1024px) {
+  .img {
+    transform: scale(1.3);
+    margin-bottom: 200px;
+  }
+}
+
+/*Celular*/
+
+@media screen and (max-width: 1023px) {
+  .containerGaleria {
+    margin-top: 200px;
+  }
+
+  .img {
+    transform: scale(1.6);
+    margin-bottom: 300px;
+  }
+}

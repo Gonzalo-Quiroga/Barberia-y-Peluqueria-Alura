@@ -1,0 +1,27 @@
+/*19 pulgadas*/
+
+@media screen and (max-width: 1366px) {
+}
+
+/*17 pulgadas*/
+
+@media screen and (max-width: 1280px) {
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1024px) {
+}
+
+/*Celular*/
+
+@media screen and (max-width: 1023px) {
+  form {
+    height: 1300px;
+  }
+
+  form label,
+  form legend {
+    font-size: 40px;
+  }
+}

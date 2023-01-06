@@ -1,0 +1,19 @@
+.containerGaleria {
+  width: 90%;
+  margin: 150px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img {
+  width: 500px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  transition: 0.5s;
+  box-shadow: 15px 15px 15px 15px black;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}

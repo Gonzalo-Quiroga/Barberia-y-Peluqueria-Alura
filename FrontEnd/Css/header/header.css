@@ -1,0 +1,40 @@
+.containerHeader {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  background: #04293a;
+}
+
+#logoAlura {
+  width: 150px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 40px;
+}
+
+nav a {
+  color: #e2dcc8;
+  font-weight: 100;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: underline blue;
+}
+
+/*Celular*/
+
+@media screen and (max-width: 1023px) {
+  nav a {
+    font-size: 30px;
+  }
+}

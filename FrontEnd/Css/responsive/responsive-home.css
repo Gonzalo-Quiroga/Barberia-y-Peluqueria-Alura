@@ -1,0 +1,191 @@
+/*19 pulgadas*/
+
+@media screen and (max-width: 1366px) {
+  .imagenBanner {
+    left: -150px;
+  }
+
+  .containerTexto {
+    left: 150px;
+  }
+
+  .principal {
+    transform: scale(0.8);
+  }
+
+  .posteBarbero1 {
+    width: 450px;
+    top: 1050px;
+  }
+
+  .posteBarbero2 {
+    width: 450px;
+    top: 1050px;
+  }
+
+  .videos {
+    transform: scale(0.9);
+  }
+
+  .imagenDiferenciales {
+    transform: scale(0.9);
+  }
+
+  .imagenDiferenciales:hover {
+    transform: scale(1);
+  }
+}
+
+/*17 pulgadas*/
+
+@media screen and (max-width: 1280px) {
+  .imagenBanner {
+    left: -250px;
+  }
+
+  .containerTexto {
+    left: 120px;
+  }
+
+  .posteBarbero1 {
+    width: 390px;
+    top: 1020px;
+  }
+
+  .posteBarbero2 {
+    width: 390px;
+    top: 1020px;
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1024px) {
+  .imagenBanner {
+    left: -350px;
+  }
+
+  .containerTexto {
+    left: 60px;
+  }
+
+  .posteBarbero1 {
+    width: 450px;
+    top: 800px;
+    left: 300px;
+  }
+
+  .posteBarbero2 {
+    width: 450px;
+    top: 1270px;
+    right: 270px;
+  }
+
+  @keyframes t1 {
+    0% {
+      transform: translateY(0px) rotate(90deg);
+    }
+    50% {
+      transform: translateY(20px) rotate(90deg);
+    }
+    100% {
+      transform: translateY(0px) rotate(90deg);
+    }
+  }
+
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .videos {
+    transform: scale(1);
+    margin-bottom: 40px;
+  }
+
+  .imagenDiferenciales {
+    transform: scale(0.8);
+    margin-left: -50px;
+  }
+
+  .imagenDiferenciales:hover {
+    transform: scale(0.9);
+  }
+
+  .items1 {
+    transform: scale(0.9);
+    line-height: 1.2;
+  }
+
+  .items {
+    transform: scale(0.9);
+    line-height: 1.2;
+  }
+
+  .listaDiferenciales {
+    margin-left: -50px;
+  }
+}
+
+/*Celular*/
+
+@media screen and (max-width: 1023px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .imagenBanner {
+    top: 0;
+  }
+
+  .principal {
+    height: 1400px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    z-index: 0;
+  }
+
+  .posteBarbero1 {
+    left: -2000px;
+  }
+
+  .posteBarbero2 {
+    left: -2000px;
+  }
+
+  .tituloPrincipal {
+    font-size: 100px;
+  }
+
+  .principal p {
+    font-size: 50px;
+  }
+
+  .videos {
+    transform: scale(1.3);
+    margin-bottom: 250px;
+  }
+
+  .imagenDiferenciales {
+    transform: scale(0.7);
+    margin-left: -150px;
+  }
+
+  .imagenDiferenciales:hover {
+    transform: scale(0.7);
+  }
+
+  .items1 {
+    transform: scale(0.8);
+    line-height: 1;
+  }
+
+  .items {
+    transform: scale(0.8);
+    line-height: 1;
+  }
+
+  .listaDiferenciales {
+    margin-left: -120px;
+  }
+}
